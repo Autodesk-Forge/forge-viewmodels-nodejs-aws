@@ -20,14 +20,24 @@ const { AuthClientTwoLegged } = require('forge-apis');
 
 const configAWS = require('../../configAWS');
 
+let client_id = null;
+
+let client_secret = null;
+
 /**
  * Initializes a Forge client for 2-legged authentication.
  * @param {string[]} scopes List of resource access scopes.
  * @returns {AuthClientTwoLegged} 2-legged authentication client.
  */
 async function getClient(scopes) {
-    const client_id = await configAWS.forgeAWSClientId();
-    const client_secret = await configAWS.forgeAWSClientSecret();
+    if (!client_id || !client_secret){
+        let result = await Promise.all([configAWS.forgeAWSClientId(), configAWS.forgeAWSClientSecret()]);
+        client_id = result[0];
+        client_secret = result[1];
+    }
+    
+    // const client_id = await configAWS.forgeAWSClientId();
+    // const client_secret = await configAWS.forgeAWSClientSecret();
     return new AuthClientTwoLegged(client_id, client_secret, scopes || configAWS.scopeInternal);
 }
 

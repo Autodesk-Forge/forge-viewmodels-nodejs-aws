@@ -47,12 +47,12 @@ module.exports = {
     },
     
     forgeAWSClientId: async function() {
-        let parameter = await awsParamStore.getParameterSync( clientIdParam , this.getParamStore());
+        let parameter = await awsParamStore.getParameter( clientIdParam , this.getParamStore());
         return parameter.Value;
     },
 
     forgeAWSClientSecret: async function() {
-        let parameter = await awsParamStore.getParameterSync( clientSecretParam ,this.getParamStore());
+        let parameter = await awsParamStore.getParameter( clientSecretParam ,this.getParamStore());
         return parameter.Value;
     }
 };
