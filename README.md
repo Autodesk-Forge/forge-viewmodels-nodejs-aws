@@ -1,4 +1,4 @@
-# autodesk.forge.aws.cloudformation.nodejs
+# view.models-nodejs-aws.cloudformation
 
 [![Node.js](https://img.shields.io/badge/Node.js-8.12.0-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-6.4.1-blue.svg)](https://www.npmjs.com/)
@@ -9,7 +9,7 @@
 [![Data-Management](https://img.shields.io/badge/Data%20Management-v1-green.svg)](http://forge.autodesk.com/)
 [![OSS](https://img.shields.io/badge/OSS-v2-green.svg)](http://forge.autodesk.com/)
 [![Model-Derivative](https://img.shields.io/badge/Model%20Derivative-v2-green.svg)](http://forge.autodesk.com/)
-[![Viewer](https://img.shields.io/badge/Viewer-v6-green.svg)](http://forge.autodesk.com/)
+[![Viewer](https://img.shields.io/badge/Viewer-v7-green.svg)](http://forge.autodesk.com/)
 
 # Description
 
