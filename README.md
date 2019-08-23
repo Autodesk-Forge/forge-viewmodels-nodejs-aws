@@ -15,7 +15,7 @@
 
 AWS Cloudformation Project for the use with [Autodesk Forge AWS Quickstart](https://aws.amazon.com/quickstart/architecture/autodesk-forge/)
 
-![Quick Start architecture for Autodesk Forge on AWS Cloud](Autodesk Forge Quick Start architecture diagram.png)
+![Quick Start architecture for Autodesk Forge on AWS Cloud](Autodesk-Forge-QuickStart-architecture-diagram.png)
 
 
 
