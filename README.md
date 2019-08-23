@@ -13,12 +13,15 @@
 
 # Description
 
-AWS Cloudformation Project
+AWS Cloudformation Project for the use with [Autodesk Forge AWS Quickstart](https://aws.amazon.com/quickstart/architecture/autodesk-forge/)
+
+![Quick Start architecture for Autodesk Forge on AWS Cloud](Autodesk Forge Quick Start architecture diagram.png)
+
 
 
 # Setup
 
-For using this sample, you need an Autodesk developer credentials. Visit the [Forge Developer Portal](https://developer.autodesk.com), sign up for an account, then [create an app](https://developer.autodesk.com/myapps/create). For this new app, use **http://localhost:3000/api/forge/callback/oauth** as Callback URL, although is not used on 2-legged flow. Finally take note of the **Client ID** and **Client Secret**.
+For using this sample, you need an Autodesk developer credentials. Visit the [Forge Developer Portal](https://forge.autodesk.com), sign up for an account, then [create an app](https://forge.autodesk.com/myapps/create). For this new app, use **http://localhost:3000/api/forge/callback/oauth** as Callback URL, although is not used on 2-legged flow. Finally take note of the **Client ID** and **Client Secret**.
 
 ### Run locally
 
@@ -26,7 +29,7 @@ Install [NodeJS](https://nodejs.org).
 
 Clone this project or download it. It's recommended to install [GitHub desktop](https://desktop.github.com/). To clone it via command line, use the following (**Terminal** on MacOSX/Linux, **Git Shell** on Windows):
 
-    git clone https://github.com/autodesk-forge/autodesk.forge.aws.cloudformation.nodejs
+    git clone https://github.com/autodesk-forge/forge-viewmodels-nodejs-aws.git
 
 To run it, install the required packages, set the enviroment variables with your client ID & secret and finally start it. Via command line, navigate to the folder where this repository was cloned and use the following:
 
